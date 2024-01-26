@@ -9,39 +9,56 @@
     <div class="container-fluid">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Introduzione</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">info</a>
+                <a class="nav-link" href="#">Threat Modeling Process</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Esempi Interattivi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Autore</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Risorse</a>
             </li>
         </ul>
     </div>
 </nav>
+</br>
+<div class="riga">
+<h1 class="titolo"><%= "INTRODUZIONE AL THREAT MODELING" %>
+</h1><img class="imgThreat" src="img/threats-security.png" alt="descrizione">
+</div>
 
-<h1><%= "Guida per la scomposizione del sistema nel Threat Modeling!" %>
-</h1>
+<div class="content">
+    <h3><%= "Cos'è il Threat Modeling" %></h3>
+    <p>
+        Il Threat Modeling analizza le varie rappresentazioni di un sistema per evidenziare tutto ciò che riguarda
+        caratteristiche di sicurezza e privacy.</p>
+    <h3><%= "Perchè applicare il Threat Modeling" %></h3>
+    <p>
+        Quando si esegue il Threat Modeling, si inizia a riconoscere cosa può andare storto in un sistema.
+        Inoltre, consente di individuare i problemi di progettazione e implementazione che richiedono una mitigazione, sia nelle fasi iniziali che durante l'intero ciclo di vita del sistema.
+        I risultati del Threat Modleing, noti come Threats (Minacce), influenzano le decisioni che si possono prendere nelle fasi successive di progettazione, sviluppo, testing e post-deployment.
+    </p>
+    <h3><%= "Chi dovrebbe applicare il Threat Modeling" %></h3>
+    <p>
+        Esso dovrebbe essere applicato da chiunque sia preoccupato per la privacy, la sicurezza e la protezione del proprio sistema.
+    </p>
 
-<h2><%= "Informazioni generali" %></h2>
+    <h3><%= "Come si dovrebbe applicare il Threat Modeling" %></h3>
+    <p>
+        Il processo di Threat Modeling può essere decomposto in 3 passaggi di alto livello. Ognuno dei quali viene documentato e produce
+        un documento chiamato threat model.
 
-<form class="bg-light p-5" method="get" action="">
-    <div class="mb-3 mt-3">
-        <label for="nome" class="form-label">Inserire il nome applicazione:</label>
-        <input type="nome" class="form-control" id="nome"  name="nome">
-    </div>
-
-    <div class="mb-3 mt-3">
-        <label for="versione" class="form-label">Inserire la versione applicazione:</label>
-        <input type="versione" class="form-control" id="versione"  name="versione">
-    </div>
-
-    <label for="descrizione">Inserisci una descrizione ad alto livello:</label>
-    <textarea class="form-control" rows="5" id="descrizione" name="descrizione"></textarea>
-
-    <div class="mb-3 mt-3">
-        <label for="proprietario" class="form-label">Inserire il proprietario dell'applicazione:</label>
-        <input type="proprietario" class="form-control" id="proprietario"  name="proprietario">
-    </div>
-    <button type="submit" class="btn btn-primary" value="2" name="stato">Avanti</button>
-</form>
+        I passi sono:
+        <li>Decomposizione dell'applicazione.</li>
+        <li>Determinazione del Threat Rank.</li>
+        <li>Individuazione di Contromisure e Mitigazione.</li>
+    </p>
+</div>
+</div>
 <br/>
 <%@include file="footer.jsp"%>

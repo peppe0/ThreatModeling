@@ -1,10 +1,57 @@
-footer{
-    height: 110px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@font-face {
+    font-family: "Poppins SemiBold";
+   src: url('../font/Poppins-SemiBold.ttf');
+}
+
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+            position: relative; /* Establish a positioning context for child elements */
+}
+
+
+.titolo{
+    font-family: "Poppins SemiBold", "Century Gothic";
+}
+
+.footer {
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #2c313c;
-	color: white;
 	text-align: center;
 }
+
+.content {
+            padding-top: 25px ;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin:60px;
+             box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+             background-color: lightgrey;
+            text-align: left;
+            padding-bottom: 110px; /* Adjust this value to accommodate the height of your footer */
+        }
+
+ .imgThreat {
+     max-width: 50%; /* Ensure the image does not exceed the width of its container */
+     height: 60px; /* Maintain the aspect ratio of the image */
+     border-radius: 8px; /* Add rounded corners to the image */
+     margin: 5px;
+ }
+
+
+.riga {
+    display: flex; /* Use Flexbox to control layout */
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 

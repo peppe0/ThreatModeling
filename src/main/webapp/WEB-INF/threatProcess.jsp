@@ -18,7 +18,7 @@
     </div>
 </nav>
 
-<h1><%= "Guida per la scomposizione del sistema nel Threat Modeling!" %>
+<h1><%= "Threat modeling Process" %>
 </h1>
 
 <h2><%= "Individuazione punti di ingresso" %></h2>
@@ -54,5 +54,5 @@
 <br/>
 <div class="mt-5 p-4 bg-dark text-white text-center">
     <p>© Copyright 2023 - All Rights Reserved - Guida per il Threat Modeling </p>
-</div></body>
-</html>
+</div>
+<%@include file="footer.jsp"%>

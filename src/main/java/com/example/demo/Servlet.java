@@ -32,7 +32,7 @@ public class Servlet extends HttpServlet {
             dispatcher.forward(request, response);
         }
           else  if(fase==3){
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/fase3.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/threatProcess.jsp");
             dispatcher.forward(request, response);
             }
         else{
