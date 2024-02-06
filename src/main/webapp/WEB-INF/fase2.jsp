@@ -5,22 +5,11 @@
 <jsp:include page="header.jsp">
     <jsp:param name="pageTitle" value="Home"/>
 </jsp:include>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">info</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+
 
 <h1><%= "Guida per la scomposizione del sistema nel Threat Modeling!" %>
 </h1>
-
+<div class="content">
 <h2><%= "Individuazione dipendenze esterne" %></h2>
 <form class="bg-light p-5" method="get" action="">
 <div class="p-5">
@@ -35,25 +24,24 @@
     <tr>
         <th scope="row">1</th>
         <td contenteditable="true">1</td>
-    </tr>
-    <tr>
+       </tr>
+      <tr>
         <th scope="row">2</th>
         <td contenteditable="true">2</td>
 
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <td contenteditable="true">3</td>
-    </tr>
-    </tbody>
-</table>
-</div>
+      </tr>
+      <tr>
+          <th scope="row">3</th>
+         <td contenteditable="true">3</td>
+      </tr>
+       </tbody>
+    </table>
+    </div>
 
-<button type="submit" class="btn btn-primary" value="1" name="stato">Indietro</button>
-<button type="submit" class="btn btn-primary" value="3" name="stato">Avanti</button>
-</form>
+    <button type="submit" class="btn btn-primary" value="1" name="stato">Indietro</button>
+    <button type="submit" class="btn btn-primary" value="3" name="stato">Avanti</button>
+    </form>
+</div>
 <br/>
-<div class="mt-5 p-4 bg-dark text-white text-center">
-    <p>© Copyright 2023 - All Rights Reserved - Guida per il Threat Modeling </p>
-</div></body>
-</html>
+
+<%@include file="footer.jsp"%>

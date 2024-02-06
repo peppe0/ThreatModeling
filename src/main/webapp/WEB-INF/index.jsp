@@ -5,28 +5,7 @@
 <jsp:include page="header.jsp">
     <jsp:param name="pageTitle" value="Home"/>
 </jsp:include>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Introduzione</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Threat Modeling Process</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Esempi Interattivi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Autore</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Risorse</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-</br>
+
 <div class="riga">
 <h1 class="titolo"><%= "INTRODUZIONE AL THREAT MODELING" %>
 </h1><img class="imgThreat" src="img/threats-security.png" alt="descrizione">

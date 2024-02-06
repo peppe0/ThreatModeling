@@ -19,3 +19,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="?id=1">Introduzione</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?id=2">Threat Modeling Process</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?id=3">Guida</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Risorse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Autore</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</br>
