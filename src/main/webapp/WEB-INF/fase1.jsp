@@ -6,6 +6,8 @@
     <jsp:param name="pageTitle" value="Home"/>
 </jsp:include>
 
+
+
 <div class="riga">
     <h1 class="titolo"><%= "GUIDA AL THREAT MODELING" %>
 
@@ -33,22 +35,21 @@
 </div>
 <div class="content">
   <h3>Fase 1 - Decomposizione applicazione</h3>
-    </br>
-        <button class="btn-primary" id="showModalBtn">esempio </button>
-
-
     <p>L'obiettivo di questa fase è comprendere l'applicazione e il modo in cui interagisce con le entità esterne.
         Questo obiettivo viene raggiunto attraverso la raccolta di informazioni e la documentazione.
         Il processo di raccolta delle informazioni viene eseguito utilizzando una struttura chiaramente definita, che garantisce la raccolta delle informazioni corrette.</p>
-<form method="get" action="">
+    <div class="btn-container">
+        <button class="btn-primary" id="showModalBtn">esempio </button>
+    </div>
+    <form method="post" action="">
     <div >
         <label for="nome" class="form-label">Inserire il nome applicazione:</label>
-        <input type="nome" class="form-control" id="nome"  name="nome">
+        <input type="text" class="form-control" id="nome"  name="nome">
     </div>
 
     <div >
         <label for="versione" class="form-label">Inserire la versione applicazione:</label>
-        <input type="versione" class="form-control" id="versione"  name="versione">
+        <input type="text" class="form-control" id="versione"  name="versione">
     </div>
 
     <label for="descrizione">Inserisci una descrizione ad alto livello:</label>
@@ -56,23 +57,23 @@
 
     <div >
         <label for="proprietario" class="form-label">Inserire il proprietario dell'applicazione:</label>
-        <input type="proprietario" class="form-control" id="proprietario"  name="proprietario">
+        <input type="text" class="form-control" id="proprietario"  name="proprietario">
     </div>
 
     <div >
         <label for="partecipanti" class="form-label">Inserire i partecipanti dell'applicazione:</label>
-        <input type="partecipanti" class="form-control" id="partecipanti"  name="partecipanti">
+        <input type="text" class="form-control" id="partecipanti"  name="partecipanti">
     </div>
 
     <div >
         <label for="reviewer" class="form-label">Inserire i reviewer dell'applicazione:</label>
-        <input type="reviewer" class="form-control" id="reviewer"  name="reveiwer">
+        <input type="text" class="form-control" id="reviewer"  name="reviewer">
     </div>
     <br>
     <button type="submit" class="btn btn-primary" value="2" name="stato">Avanti</button>
 </form>
 </div>
 
-<script src="script.js"></script>
 <br/>
+<script src="script.js"></script>
 <%@include file="footer.jsp"%>

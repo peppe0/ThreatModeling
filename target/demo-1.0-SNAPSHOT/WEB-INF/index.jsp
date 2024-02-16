@@ -20,7 +20,7 @@
     <p>
         Quando si esegue il Threat Modeling, si inizia a riconoscere cosa può andare storto in un sistema.
         Inoltre, consente di individuare i problemi di progettazione e implementazione che richiedono una mitigazione, sia nelle fasi iniziali che durante l'intero ciclo di vita del sistema.
-        I risultati del Threat Modleing, noti come Threats (Minacce), influenzano le decisioni che si possono prendere nelle fasi successive di progettazione, sviluppo, testing e post-deployment.
+        I risultati del Threat Modeling, noti come Threats (Minacce), influenzano le decisioni che si possono prendere nelle fasi successive di progettazione, sviluppo, testing e post-deployment.
     </p>
     <h3><%= "Chi dovrebbe applicare il Threat Modeling" %></h3>
     <p>
